@@ -32,8 +32,4 @@ fi
 bin/installDeps.sh $* || exit 1
 
 #Move to the node folder and start
-echo "start..."
-
-SCRIPTPATH=`pwd -P`
-node $SCRIPTPATH/node_modules/ep_etherpad-lite/node/server.js $*
-
+#echo "start..."
